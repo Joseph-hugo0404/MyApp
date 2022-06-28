@@ -18,28 +18,22 @@ class UserSeeder extends Seeder
     {
         $users = [
             [
-                'name' => 'Joseph Hugo',
-                'email' => 'josephjhugo@gmail.com',
+                'name' => 'Jay Ajoc',
+                'email' => 'jayajoco@gmail.com',
                 'email_verified_at' => Carbon::now(),
-                'password' => bcrypt('hugo123')
+                'password' => bcrypt('ajoc123')
             ],
             [
-                'name' => 'Michael Porter',
-                'email' => 'portermichael@gmail.com',
+                'name' => 'Michael Jordan',
+                'email' => 'michael@gmail.com',
                 'email_verified_at' => Carbon::now(),
-                'password' => bcrypt('porter123')
+                'password' => bcrypt('jordan123')
             ],
             [
-                'name' => 'Joseph Yoe',
-                'email' => 'josephyoe@gmail.com',
+                'name' => 'Jay AJjoc ll',
+                'email' => 'jay@gmail.com',
                 'email_verified_at' => Carbon::now(),
-                'password' => bcrypt('yoe123')
-            ],
-            [
-                'name' => 'Justin Timberlake',
-                'email' => 'justintim@gmail.com',
-                'email_verified_at' => Carbon::now(),
-                'password' => bcrypt('timberlake123')
+                'password' => bcrypt('jay123')
             ],
         ];
 
